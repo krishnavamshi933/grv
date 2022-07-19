@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script 
                 {
-                    helloworld.hello()
+                    hello.hello()
                 }
             }
         }
@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script 
                 {
-                    checkout_git.checkout_git()
+                    checkout.checkout_git()
                 }
             }
         }
